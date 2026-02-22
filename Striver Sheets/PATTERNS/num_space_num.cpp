@@ -17,8 +17,8 @@ void num_space_num(int n){
         for(int j = i;j>=1;j--){
             cout<<j;
         }
-    cout<<endl;
-    space-=2;
+        cout<<endl;
+        space-=2;
     }
 }
 
