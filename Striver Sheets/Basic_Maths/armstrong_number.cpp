@@ -5,11 +5,18 @@ int arm_num(int n)
 {
     int orig = n;
     int sum = 0;
+    int k = to_string(orig).size();
     while (n > 0)
     {
         int ld = n % 10;
-        int rev_num = rev_num * 10 + (ld * ld * ld);
+        sum += (int)pow(ld,k);
         n = n / 10;
+    }
+    if(sum == orig){
+        cout<<"It's an armstrong number";
+    }
+    else{
+        cout<<"It's not an armstrong number";
     }
     return sum == orig;
 }
