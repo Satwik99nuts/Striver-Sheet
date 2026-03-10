@@ -30,8 +30,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "d:/NOTES_SECTION/Striver's A2Z DSA SHEET/Striver Sheets/Hashing",
+      "program": "d:/NOTES_SECTION/Striver's A2Z DSA SHEET/Striver Sheets/Hashing/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
